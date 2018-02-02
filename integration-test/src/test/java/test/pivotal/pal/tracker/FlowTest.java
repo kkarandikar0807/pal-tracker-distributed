@@ -132,7 +132,6 @@ public class FlowTest {
                 .put("name", "A story")
                 .build()
         );
-        
         long createdStoryId = findResponseId(response);
         assertThat(createdStoryId).isGreaterThan(0);
 
